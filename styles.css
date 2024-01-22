@@ -1,1 +1,42 @@
-/*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 5px;
+}
+#my_container
+{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+    
+}
+
+#card
+{
+    box-sizing: border-box;
+    padding: 30px;
+    
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
+}
+#src{
+    width: 150px;
+    height: 150px;
+}
+#submit
+{
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 12px;
+}
